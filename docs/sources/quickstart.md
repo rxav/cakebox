@@ -36,6 +36,7 @@ To launch your box for the first time:
 git clone https://github.com/alt3/cakebox.git
 cd cakebox
 cp Cakebox.yaml.default Cakebox.yaml
+vagrant plugin install vagrant-vbguest
 vagrant up
 ```
 
